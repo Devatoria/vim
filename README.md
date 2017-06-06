@@ -6,7 +6,6 @@ My VIM init file to load plugins and options.
 
 * [neovim](https://github.com/neovim/neovim): vim fork
 * [vim-plug](https://github.com/junegunn/vim-plug): minimalist plugin manager for (neo-)vim
-* [deoplete](https://github.com/Shougo/deoplete.nvim): autocompletion framework for neovim
 * [molokai](https://github.com/tomasr/molokai): sexy color scheme
 
 ## What's inside?
@@ -32,8 +31,40 @@ My VIM init file to load plugins and options.
 * enable molokai color scheme
 * enable syntax highlighting
 
+## Plugins
+
+* vim-go
+* deoplete
+* deoplete-g
+* vim-puppet
+* c.vim
+* syntastic
+* python-mode
+* rust.vim
+
 ### vim-go options
+
+* highlight
+  * functions
+  * methods
+  * fields
+  * types
+  * operators
+  * build constraints
+* on save
+  * metalinter
+  * go fmt
+  * goimports
 
 ### deoplete options
 
+* enabled at startup
+* sort class
+* use cache
+
 ### syntastic options
+
+* populate location list and auto locoation list
+* do not check on open
+* check on write and quit
+* set `puppetlint` as puppet checker
