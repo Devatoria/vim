@@ -9,6 +9,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'w0rp/ale'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'towolf/vim-helm'
 call plug#end()
 
 let g:go_highlight_build_constraints = 1
@@ -31,6 +32,8 @@ let g:deoplete#sources#go#use_cache = 1
 let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠'
 let g:airline#extensions#ale#enabled = 1
+
+let g:pymode_python = 'python3'
 
 colorscheme molokai
 syntax enable
