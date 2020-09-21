@@ -9,5 +9,5 @@ My vimrc config.
 * Copy `.vimrc` file to `~/.vimrc`
 * Open `vim`
 * Run `:PluginInstall`
-* Run `.vim/bundle/YouCompleteMe/install.sh` to completely install YouCompleteMe plugin
+* Run `~/.vim/bundle/YouCompleteMe/install.sh` to completely install YouCompleteMe plugin
   * This must be re-run every time `macvim` is updated
